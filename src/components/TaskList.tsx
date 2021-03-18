@@ -35,8 +35,8 @@ export function TaskList() {
       ...task, isComplete: !task.isComplete
     } : task)
     //realiza um Map das tasks, e se o id da task é igual ao informado
-    //muda para o isComplete para o status diferente do anterior, de false para true
-    //caso não foi igual apenas retorna a task no mesmo status
+    //altera o isComplete para o status diferente do anterior, de false para true
+    //caso não for igual, apenas retorna a task no mesmo status
 
     setTasks(taskMap);
 
